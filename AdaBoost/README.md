@@ -1,0 +1,4 @@
+AdaBoost, short for “Adaptive Boosting”, can solve not only classification but also regression problem. It uses an iterative method to transfer a set of weak learners, which are called decision stumps, into a strong classifier. Decision stump, which is decision trees with a node and two leaves, is based on a threshold and a feature. If the threshold is above the feature than the prediction, then it belongs to negative and belongs to positive otherwise.
+<br />
+<br />
+AdaBoost is fast and easy to understand. It has high accuracy in the classification problem. Also, it is flexible to set up weak learner with various regression or classification model, as well as combine with most of machine learning algorithms without adjusting the parameters. On the contrary, AdaBoost is vulnerable to outliers and noisy data. Besides, over-fitting can be caused by the weak learner that is too weak.
